@@ -1,0 +1,18 @@
+{
+  "name": "api-mycontacts",
+  "version": "1.0.0",
+  "description": "API to store contacts",
+  "main": "src/index.js",
+  "repository": "git@github.com:matheus-alpe/jstack-api-mycontacts.git",
+  "author": "Matheus Pereira <matttalves@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon src/"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
