@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "_id": "000dfde7-ea76-4942-9870-ca859f32a42b",
+    "name": "DEV vars",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-07-02T16:33:32.022Z",
+    "modified": "2022-07-02T16:37:06.857Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "http://localhost:3000"
+      }
+    ]
+  }
+]

@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "_id": "89450144-4e33-4d14-86f2-f3c149b5707a",
+    "colId": "19d3dd49-f06e-4e22-bb47-1c9ee083442d",
+    "containerId": "",
+    "name": "List",
+    "url": "{{host}}/contacts",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-07-02T16:30:57.259Z",
+    "modified": "2022-07-02T16:37:12.126Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
