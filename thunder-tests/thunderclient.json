@@ -40,5 +40,19 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "9630613f-3033-445b-ba5a-33be4d064ef2",
+    "colId": "474b8a93-eda7-4730-bbe9-94ec51ce8237",
+    "containerId": "",
+    "name": "/",
+    "url": "{{host}}",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-07-19T23:24:11.951Z",
+    "modified": "2022-07-19T23:27:11.222Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
