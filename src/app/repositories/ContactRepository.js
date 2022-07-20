@@ -30,6 +30,24 @@ class ContactsRepository {
     });
   }
 
+  findByEmail(email) {
+    return new Promise((resolve) => {
+      resolve(contacts.find((contactObject) => contactObject.email === email));
+    });
+  }
+
+  create(contact) {
+    return new Promise((resolve) => {
+      const newContact = {
+        id: v4(),
+        ...contact,
+      };
+
+      contacts.push(newContact);
+      resolve(newContact);
+    });
+  }
+
   delete(id) {
     return new Promise((resolve) => {
       const index = contacts.findIndex((contactObject) => contactObject.id === id);

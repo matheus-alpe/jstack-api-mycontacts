@@ -54,5 +54,24 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "d319ad99-a55b-410c-aede-57fde68aac94",
+    "colId": "19d3dd49-f06e-4e22-bb47-1c9ee083442d",
+    "containerId": "",
+    "name": "Create Contact",
+    "url": "{{host}}/contacts",
+    "method": "POST",
+    "sortNum": 35000,
+    "created": "2022-07-20T00:10:22.393Z",
+    "modified": "2022-07-20T00:32:43.282Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Abigail\",\n    \"email\": \"abigail@mail.com\",\n    \"phone\": \"1234556789\",\n    \"category_id\": \"9c38243d-08bb-472b-a190-08af16c66b0f\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
