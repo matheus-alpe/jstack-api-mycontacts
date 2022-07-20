@@ -73,5 +73,24 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "07842799-020b-47b0-9860-aee9d84d9235",
+    "colId": "19d3dd49-f06e-4e22-bb47-1c9ee083442d",
+    "containerId": "",
+    "name": "Update Contact",
+    "url": "{{host}}/contacts/{{contactId}}",
+    "method": "PUT",
+    "sortNum": 37500,
+    "created": "2022-07-20T22:13:13.568Z",
+    "modified": "2022-07-20T22:17:26.085Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Matheus Alves Pereira\",\n    \"email\": \"matttalves@mail.com\",\n    \"phone\": \"1234556789\",\n    \"category_id\": \"9c38243d-08bb-472b-a190-08af16c66b0f\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]

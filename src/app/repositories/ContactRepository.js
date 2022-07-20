@@ -48,6 +48,15 @@ class ContactsRepository {
     });
   }
 
+  update(contact) {
+    return new Promise((resolve) => {
+      const updatedContact = { ...contact };
+      const index = contacts.findIndex((contactObject) => contactObject.id === updatedContact.id);
+      contacts.splice(index, 1, updatedContact);
+      resolve(updatedContact);
+    });
+  }
+
   delete(id) {
     return new Promise((resolve) => {
       const index = contacts.findIndex((contactObject) => contactObject.id === id);
