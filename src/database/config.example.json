@@ -1,0 +1,7 @@
+{
+  "HOST": "<host>",
+  "PORT": "<port>",
+  "USER": "<user>",
+  "PASSWORD": "<user-password>",
+  "DATABASE": "mycontacts"
+}
