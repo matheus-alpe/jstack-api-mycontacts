@@ -2,7 +2,11 @@ const ContactsRepository = require('../repositories/ContactRepository');
 
 class ContactController {
   async index(request, response) {
-    const contacts = await ContactsRepository.findAll();
+    const { orderBy } = request.query;
+    const hasValidOrderBy = /^(asc|desc)$/i.test(orderBy);
+    const order = hasValidOrderBy ? orderBy : 'ASC';
+
+    const contacts = await ContactsRepository.findAll(order);
     response.json(contacts);
   }
 

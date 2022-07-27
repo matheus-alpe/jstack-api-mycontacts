@@ -4,13 +4,19 @@
     "colId": "19d3dd49-f06e-4e22-bb47-1c9ee083442d",
     "containerId": "",
     "name": "List Contacts",
-    "url": "{{host}}/contacts",
+    "url": "{{host}}/contacts?orderBy=desc",
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-07-02T16:30:57.259Z",
-    "modified": "2022-07-19T22:22:38.594Z",
+    "modified": "2022-07-27T02:14:00.179Z",
     "headers": [],
-    "params": [],
+    "params": [
+      {
+        "name": "orderBy",
+        "value": "desc",
+        "isPath": false
+      }
+    ],
     "tests": []
   },
   {
@@ -64,12 +70,12 @@
     "method": "POST",
     "sortNum": 35000,
     "created": "2022-07-20T00:10:22.393Z",
-    "modified": "2022-07-27T01:44:00.280Z",
+    "modified": "2022-07-27T02:02:15.636Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name\": \"Abigail\",\n    \"email\": \"abigail2@mail.com\",\n    \"phone\": \"1234556789\"\n}",
+      "raw": "{\n    \"name\": \"Matheus\",\n    \"email\": \"matttalves@mail.com\",\n    \"phone\": \"48991836171\"\n}",
       "form": []
     },
     "tests": []
