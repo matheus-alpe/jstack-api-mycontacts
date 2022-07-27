@@ -64,12 +64,12 @@
     "method": "POST",
     "sortNum": 35000,
     "created": "2022-07-20T00:10:22.393Z",
-    "modified": "2022-07-20T00:32:43.282Z",
+    "modified": "2022-07-27T01:44:00.280Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name\": \"Abigail\",\n    \"email\": \"abigail@mail.com\",\n    \"phone\": \"1234556789\",\n    \"category_id\": \"9c38243d-08bb-472b-a190-08af16c66b0f\"\n}",
+      "raw": "{\n    \"name\": \"Abigail\",\n    \"email\": \"abigail2@mail.com\",\n    \"phone\": \"1234556789\"\n}",
       "form": []
     },
     "tests": []
