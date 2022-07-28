@@ -70,12 +70,12 @@
     "method": "POST",
     "sortNum": 35000,
     "created": "2022-07-20T00:10:22.393Z",
-    "modified": "2022-07-28T01:31:20.899Z",
+    "modified": "2022-07-28T02:42:40.377Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name\": \"Matheus\",\n    \"email\": \"1@mail.com\",\n    \"phone\": \"48991836171\"\n}",
+      "raw": "{\n    \"name\": \"teste\",\n    \"email\": \"1@mail.com\",\n    \"phone\": \"48991836171\"\n}",
       "form": []
     },
     "tests": []
@@ -89,12 +89,12 @@
     "method": "PUT",
     "sortNum": 37500,
     "created": "2022-07-20T22:13:13.568Z",
-    "modified": "2022-07-28T01:24:39.845Z",
+    "modified": "2022-07-28T02:25:27.201Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name\": \"teste\",\n    \"email\": \"teste1@mail.com\",\n    \"phone\": \"1234556789\"\n}",
+      "raw": "{\n  \"name\": \"Matheus\",\n  \"email\": \"matttalves@gmail.com\",\n  \"phone\": \"48991836171\",\n  \"category_id\": \"abb9be9d-7d0f-4cab-9602-635a043d5661\"\n}",
       "form": []
     },
     "tests": []
