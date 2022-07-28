@@ -68,20 +68,14 @@ class ContactController {
       return;
     }
 
-    const contact = await ContactsRepository.update({
-      id, name, email, phone, category_id,
+    const contact = await ContactsRepository.update(id, {
+      name, email, phone, category_id,
     });
     response.json(contact);
   }
 
   async delete(request, response) {
     const { id } = request.params;
-    const contact = await ContactsRepository.findById(id);
-
-    if (!contact) {
-      response.status(404).json({ error: 'Contact not found' });
-      return;
-    }
 
     await ContactsRepository.delete(id);
     response.sendStatus(204);
