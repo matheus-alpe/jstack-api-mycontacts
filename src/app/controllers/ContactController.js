@@ -1,10 +1,11 @@
 const ContactsRepository = require('../repositories/ContactRepository');
 
+const { getValidOrder } = require('../../utils');
+
 class ContactController {
   async index(request, response) {
     const { orderBy } = request.query;
-    const hasValidOrderBy = /^(asc|desc)$/i.test(orderBy);
-    const order = hasValidOrderBy ? orderBy : 'ASC';
+    const order = getValidOrder(orderBy);
 
     const contacts = await ContactsRepository.findAll(order);
     response.json(contacts);

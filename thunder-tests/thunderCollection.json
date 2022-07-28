@@ -12,5 +12,12 @@
     "created": "2022-07-19T23:23:49.512Z",
     "sortNum": 5000,
     "folders": []
+  },
+  {
+    "_id": "6b33af34-5bd5-430b-8068-3d95879e3690",
+    "colName": "Categories",
+    "created": "2022-07-28T01:46:48.928Z",
+    "sortNum": 20000,
+    "folders": []
   }
 ]
